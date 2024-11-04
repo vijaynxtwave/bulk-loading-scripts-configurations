@@ -197,7 +197,7 @@ def update_learningresources_subsheet(sheet, learning_resource_uuids, projects_d
         lr_subsheet.update(values=all_values, range_name=f'A2:O{len(all_values)+1}')
 
 def main():
-    input_folder = "Cheatsheets_data_part_2"
+    input_folder = "Cheatsheets_data"
     projects_data = read_md_files(input_folder)
     
     # Debug: Print projects data
