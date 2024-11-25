@@ -204,7 +204,7 @@ def main():
     print("Projects Data:", projects_data)
     
     # Change chunk size from 5 to 9
-    chunk_size = 10  # Updated from 5 to 9
+    chunk_size = 5  # Updated from 5 to 9
     project_chunks = [projects_data[i:i + chunk_size] for i in range(0, len(projects_data), chunk_size)]
     
     sheet_links = []
