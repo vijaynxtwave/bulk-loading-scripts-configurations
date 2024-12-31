@@ -204,7 +204,7 @@ def main():
     print("Projects Data:", projects_data)
     
     # Change chunk size from 5 to 9
-    chunk_size = 5  # Updated from 5 to 9
+    chunk_size = 6  # Updated from 5 to 9
     project_chunks = [projects_data[i:i + chunk_size] for i in range(0, len(projects_data), chunk_size)]
     
     sheet_links = []
@@ -220,7 +220,7 @@ def main():
         print("Learning Resource IDs:", learning_resource_ids)
         
         # Generate common parent ID
-        common_parent_id = '721ed25a-99df-4c4e-a6fc-6a2634b107c6'
+        common_parent_id = '5ea7bdb5-f9b5-4860-8a82-0be97e381758'
         
         # Update sheets and get the learning resource UUIDs
         update_resourcesdata_subsheet(sheet, learning_resource_ids, common_parent_id)

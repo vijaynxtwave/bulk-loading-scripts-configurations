@@ -1,21 +1,29 @@
-### Age Calculator
+### Password Manager 
 
-In this assignment, let's build a Age Calculator application by applying the concepts we have learned so far.
+In this assignment, let's build a Password Manager Application by applying the concepts we have learned so far.
 
 #### Reference
 
-[https://s3.ap-south-1.amazonaws.com/new-assets.ccbp.in/frontend/loading-data/age-calculator_dldcoe.gif](https://s3.ap-south-1.amazonaws.com/new-assets.ccbp.in/frontend/loading-data/age-calculator_dldcoe.gif)
+[https://s3.ap-south-1.amazonaws.com/new-assets.ccbp.in/frontend/content/programming-foundations/updated%20project%20gifs/updated%20project%20gifs/password.gif](https://s3.ap-south-1.amazonaws.com/new-assets.ccbp.in/frontend/content/programming-foundations/updated%20project%20gifs/updated%20project%20gifs/password.gif)
 
 #### Functionalities to be Achieved:
 
-- When user selects their birthdate, application should display their current age broken down into years, months, and days (e.g., "25 years, 3 months, 15 days")
-- Show how many days are remaining until the user's next birthday (e.g., "Your next birthday is in 127 days!")
-- Display the day of the week when the user was born (e.g., "You were born on a Tuesday")
-- Calculate and show total number of hours user has lived since birth (continuously updates)
-- Present total minutes of user's life in real-time (updates every minute to show current count)
-- Show total seconds lived with live counter (updates every second to display current count)
-- Calculate total heartbeats in user's lifetime (based on average 70 beats per minute)
-- Show approximate time spent sleeping in hours (based on average 8 hours of sleep per day)
+- Create a graphical user interface (GUI) for the password manager application.
+- Implement functions to save, retrieve, and generate strong passwords.
+- Store passwords securely using a simple encryption method (Caesar cipher).
+- Provide input fields for account name, username, and password.
+- Offer a button to generate a strong password.
+- Display retrieved password details in a label.
+- Handle errors and exceptions during password saving and retrieval.
+
+#### Recommended Libraries/Packages
+
+- **tkinter:** For building the graphical user interface (GUI) of the application.
+- **random:** For randomly selecting characters for password generation.
+- **os:** For checking if the password data file exists.
+These libraries provide the necessary tools to implement the functionalities. Feel free to explore and integrate other relevant libraries to enhance or customize the application as needed.
+
+
 
 #### Submission Instructions
 

@@ -1,23 +1,27 @@
-### Dictionary app
+### Weather App
 
-In this assignment, let's build a Dictionary application by applying the concepts we have learned so far.
+In this assignment, let's build a Weather Application  by applying the concepts we have learned so far.
 
 #### Reference
 
-[https://s3.ap-south-1.amazonaws.com/new-assets.ccbp.in/frontend/loading-data/dictionary-app_aojm6x.gif](https://s3.ap-south-1.amazonaws.com/new-assets.ccbp.in/frontend/loading-data/dictionary-app_aojm6x.gif)
+[https://s3.ap-south-1.amazonaws.com/new-assets.ccbp.in/frontend/content/programming-foundations/updated%20project%20gifs/updated%20project%20gifs/weather.gif](https://s3.ap-south-1.amazonaws.com/new-assets.ccbp.in/frontend/content/programming-foundations/updated%20project%20gifs/updated%20project%20gifs/weather.gif)
 
 #### Functionalities to be Achieved:
 
-- When user enters a word, application should fetch and display its complete definition including phonetic spelling and pronunciation (with audio playback when available)
-- Display multiple meanings of the word categorized by parts of speech (noun, verb, adjective, etc.) with definitions and example sentences
-- Implement dark/light theme toggle with automatic theme persistence (saves user's preference)
-- Provide clear all functionality that removes the searched word and resets the search field
-- Show real-time loading spinner while fetching word data and display appropriate error messages for invalid words or API failures
-- Display synonyms as clickable tags - clicking any synonym should instantly search for that word's definition
-- Present source links for the word definition, allowing users to visit external dictionary references
-- Include audio pronunciation feature with a speaker icon - clicking it should play the word's pronunciation when available
-- Handle keyboard navigation - Enter key should trigger search
-- API Endpoint: https://api.dictionaryapi.dev/api/v2/entries/en/{word}
+- Create a graphical user interface (GUI) for the weather application.
+- Implement a function to fetch weather data from the OpenWeatherMap API.
+- Handle different API responses, such as successful data retrieval, city not found, invalid API key, and too many requests.
+- Display the weather data, including city name, temperature, humidity, and weather condition.
+- Provide an input field for users to enter the city name.
+
+
+#### Recommended Libraries/Packages
+
+- **tkinter:** For building the graphical user interface (GUI) of the application.
+- **requests:** For making HTTP requests to the OpenWeatherMap API.
+
+These libraries provide the necessary tools to implement the functionalities. Feel free to explore and integrate other relevant libraries to enhance or customize the application as needed.
+
 
 
 #### Submission Instructions
